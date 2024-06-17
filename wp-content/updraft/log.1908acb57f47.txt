@@ -1,0 +1,627 @@
+0000.000 (0) Opened log file at time: Mon, 17 Jun 2024 03:46:00 +0000 on https://www.xaphu.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.4 PHP: 8.2.15 (cgi-fcgi, Linux pdx1-shared-a3-10 6.5.0-21-generic #21~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Feb  9 13:32:52 UTC 2 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.2M | 18M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 14323108.3 MB
+0000.009 (0) Deleting old temporary file: log.750c5a4ab432-browser.txt
+0000.010 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (fd) time to 2024-06-17 03:46:00
+0000.018 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=1908acb57f47, file_nonce=1908acb57f47 begun at=1718595960 (0s ago), job type=backup
+0000.027 (0) Scheduling a resumption (1) after 300 seconds (1718596260) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.037 (0) Testing: /usr/bin/zip
+0000.041 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.042 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.045 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.046 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.060 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.065 (0) Working binary zip found: /usr/bin/zip
+0000.068 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.070 (0) Creation of backups of directories: beginning
+0000.073 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.127 (0) Total entities for the zip file: 889 directories, 3783 files (0 skipped as non-modified), 90.1 MB
+0000.130 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.133 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 3783 files batched, 408 (408) added so far); re-opening (prior size: 0 KB)
+0000.906 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: size is now: 5.30 MB
+0000.912 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17258.3 KB/s)
+0000.915 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.4898710250854, normalised_time=1.4833470345935, max_time=0.91498494148254, data points known=1, max_bytes=26214400)
+0000.921 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 500 files added (on-disk size: 5393.4 KB)
+0000.925 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 600 files added (on-disk size: 5393.4 KB)
+0000.929 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 700 files added (on-disk size: 5393.4 KB)
+0000.932 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 800 files added (on-disk size: 5393.4 KB)
+0000.937 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 900 files added (on-disk size: 5393.4 KB)
+0000.942 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1000 files added (on-disk size: 5393.4 KB)
+0000.945 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1100 files added (on-disk size: 5393.4 KB)
+0000.950 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1200 files added (on-disk size: 5393.4 KB)
+0000.953 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1300 files added (on-disk size: 5393.4 KB)
+0000.957 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1400 files added (on-disk size: 5393.4 KB)
+0000.958 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.7 MB, 3783 files batched, 1001 (1409) added so far); re-opening (prior size: 5393.4 KB)
+0001.828 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: size is now: 11.60 MB
+0001.837 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1500 files added (on-disk size: 11861.4 KB)
+0001.843 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1600 files added (on-disk size: 11861.4 KB)
+0001.846 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1700 files added (on-disk size: 11861.4 KB)
+0001.848 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1800 files added (on-disk size: 11861.4 KB)
+0001.852 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 1900 files added (on-disk size: 11861.4 KB)
+0001.855 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2000 files added (on-disk size: 11861.4 KB)
+0001.878 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2100 files added (on-disk size: 11861.4 KB)
+0001.881 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2200 files added (on-disk size: 11861.4 KB)
+0001.885 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2300 files added (on-disk size: 11861.4 KB)
+0001.888 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2400 files added (on-disk size: 11861.4 KB)
+0001.889 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.7 MB, 3783 files batched, 1001 (2410) added so far); re-opening (prior size: 11861.4 KB)
+0002.468 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/dh_x77t9e/xaphu.com/wp-content/updraft/backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0002.478 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: size is now: 15.50 MB
+0002.484 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2500 files added (on-disk size: 15921.4 KB)
+0002.489 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2600 files added (on-disk size: 15921.4 KB)
+0002.493 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2700 files added (on-disk size: 15921.4 KB)
+0002.499 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2800 files added (on-disk size: 15921.4 KB)
+0002.506 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 2900 files added (on-disk size: 15921.4 KB)
+0002.510 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3000 files added (on-disk size: 15921.4 KB)
+0002.513 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3100 files added (on-disk size: 15921.4 KB)
+0002.548 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3200 files added (on-disk size: 15921.4 KB)
+0002.555 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3300 files added (on-disk size: 15921.4 KB)
+0002.560 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3400 files added (on-disk size: 15921.4 KB)
+0002.561 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.6 MB, 3783 files batched, 1001 (3411) added so far); re-opening (prior size: 15921.4 KB)
+0003.457 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: size is now: 22.10 MB
+0003.463 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3500 files added (on-disk size: 22616.4 KB)
+0003.467 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3600 files added (on-disk size: 22616.4 KB)
+0003.470 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.tmp: 3700 files added (on-disk size: 22616.4 KB)
+0003.733 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.list-temp.tmp)
+0003.743 (0) Successfully created zip file manifest (size: 298423)
+0003.945 (0) Created plugins zip (0) - 23759.3 KB in 3.9 s (6142.4 KB/s) (sha1: 91866eb188cdee0ec41f50ed168aa59f8a232a80, sha256: 93ec0eb6f2a93d7a4b17f9c391f3e2bec772bd2df8ffb16dc6f1c1f758f4f7a7)
+0003.954 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.957 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0004.573 (0) Google Drive: creating path: /UpdraftPlus
+0006.155 (0) Google Drive: quota usage: used=13201.9 MB, total=15360 MB, available=2158.1 MB
+0006.157 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0006.910 (0) Googledrive chunked upload: 4.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.6 / 26)
+0007.127 (0) Googledrive chunked upload: 12.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.6 / 26)
+0007.344 (0) Googledrive chunked upload: 30.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.6 / 26)
+0007.604 (0) Googledrive chunked upload: 64.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.6 / 26)
+0009.061 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0009.067 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip uploaded in 2.91 seconds
+0009.069 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip
+0009.072 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0009.080 (0) Beginning creation of dump of themes (split every: 25 MB)
+0009.088 (0) Total entities for the zip file: 22 directories, 159 files (0 skipped as non-modified), 3.5 MB
+0009.092 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.180 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip.tmp: size is now: 3.20 MB
+0009.187 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip.list-temp.tmp)
+0009.190 (0) Successfully created zip file manifest (size: 10372)
+0009.245 (0) Created themes zip (0) - 3305.9 KB in 0.2 s (20607.6 KB/s) (sha1: e6dc230ff7e36f0134078f583ccb8ccccfbb789b, sha256: 9390391fd570342d2c77eca0a9ea8ef165bf5cfdfe4915f660d89aaf1c7d9e8a)
+0009.249 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0009.256 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0009.502 (0) Google Drive: quota usage: used=13225.1 MB, total=15360 MB, available=2134.9 MB
+0009.504 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0010.228 (0) Googledrive chunked upload: 31 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.1 / 26)
+0010.435 (0) Googledrive chunked upload: 92.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.1 / 26)
+0011.910 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0011.916 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip uploaded in 2.41 seconds
+0011.918 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip
+0011.921 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip: skipped: user has unchecked updraft_delete_local option
+0011.927 (0) Exclusion option setting (uploads): 
+0011.930 (0) Looking for candidates to backup in: /home/dh_x77t9e/xaphu.com/wp-content/uploads
+0011.931 (0) finding files: 2024: adding to list (1)
+0011.933 (0) finding files: uag-plugin: adding to list (2)
+0011.934 (0) finding files: astra-sites: adding to list (3)
+0011.935 (0) finding files: ai-builder: adding to list (4)
+0011.935 (0) finding files: elementor: adding to list (5)
+0011.937 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0011.941 (0) Total entities for the zip file: 12 directories, 107 files (0 skipped as non-modified), 28.5 MB
+0011.943 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 107 files batched, 60 (60) added so far); re-opening (prior size: 0 KB)
+0012.113 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip.tmp: size is now: 24.40 MB
+0012.117 (0) A useful amount of data was added after this amount of zip processing: 0.7 s (normalised: 0.7 s, rate: 36875.2 KB/s)
+0012.118 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.69457411766052, normalised_time=0.69423352099177, max_time=12.117743015289, data points known=1, max_bytes=26214400)
+0012.121 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (0.6 MB, 9 (69) files added so far); last ratio: 0.9739; re-opening (prior size: 24943.8 KB)
+0012.173 (0) Zip size is at/near split limit (24.4 MB / 25 MB) - bumping index (from: 0)
+0012.385 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip.list-temp.tmp)
+0012.387 (0) Successfully created zip file manifest (size: 4056)
+0012.390 (0) Created uploads zip (0) - 24997 KB in 0.2 s (105668.7 KB/s) (checksums: sha1: 5a37b0f92a4888eebb297fdbd78edb3775768443, sha256: 2a5fbb6af3445c02c1aca91c68eccffbb3cc534415bbdc66ec1f1a341bc7ddb6)
+0012.400 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.405 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0012.689 (0) Google Drive: quota usage: used=13228.4 MB, total=15360 MB, available=2131.6 MB
+0012.691 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0013.297 (0) Googledrive chunked upload: 4.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.1 / 26)
+0013.517 (0) Googledrive chunked upload: 12.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.2 / 26)
+0013.715 (0) Googledrive chunked upload: 28.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.2 / 26)
+0014.015 (0) Googledrive chunked upload: 61.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.2 / 26)
+0015.472 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0015.477 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip uploaded in 2.78 seconds
+0015.479 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip
+0015.481 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0015.484 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (70) files added so far); re-opening (prior size: 0 KB)
+0015.505 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip.tmp: size is now: 0.00 MB
+0015.509 (0) Zip: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip.tmp: 100 files added (on-disk size: 6.1 KB)
+0015.575 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip.tmp: size is now: 0.30 MB
+0015.581 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip.list-temp.tmp)
+0015.583 (0) Successfully created zip file manifest (size: 2728)
+0015.596 (0) Created uploads zip (1) - 299.5 KB in 3.2 s (93.5 KB/s) (sha1: 9c50c09454363c205b39186b63d5ab4b502331b1, sha256: cc5b85878c657f166e504f336b682edb0a735197bd64a7677f16434d75465657)
+0015.602 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.603 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0015.863 (0) Google Drive: quota usage: used=13252.8 MB, total=15360 MB, available=2107.2 MB
+0015.866 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0017.675 (0) Googledrive chunked upload: 100 % uploaded
+0017.680 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip uploaded in 1.81 seconds
+0017.682 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip
+0017.685 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip: skipped: user has unchecked updraft_delete_local option
+0017.690 (0) Beginning creation of dump of mu-plugins (split every: 25 MB)
+0017.694 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0017.707 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip.tmp: size is now: 0.00 MB
+0017.712 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip.list-temp.tmp)
+0017.715 (0) Successfully created zip file manifest (size: 71)
+0017.723 (0) Created mu-plugins zip (0) - 1.9 KB in 0 s (64.1 KB/s) (sha1: d7e2411856375dd52cfff5c0986e9ad271c612b7, sha256: 53ec3516e208b10a56dff5b401536f284c1657b10158c31c00044acaadd63379)
+0017.727 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.728 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0017.980 (0) Google Drive: quota usage: used=13252.8 MB, total=15360 MB, available=2107.2 MB
+0017.982 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0019.701 (0) Googledrive chunked upload: 100 % uploaded
+0019.706 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip uploaded in 1.72 seconds
+0019.708 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip
+0019.712 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0019.718 (0) Beginning backup of other directories found in the content directory (index: 0)
+0019.719 (0) Exclusion option setting (others): 
+0019.720 (0) Looking for candidates to backup in: /home/dh_x77t9e/xaphu.com/wp-content
+0019.721 (0) finding files: index.php: adding to list (1)
+0019.724 (0) finding files: themes: skipping: this is the themes directory
+0019.726 (0) finding files: plugins: skipping: this is the plugins directory
+0019.727 (0) finding files: uploads: skipping: this is the uploads directory
+0019.729 (0) finding files: upgrade: adding to list (2)
+0019.730 (0) finding files: updraft: skipping: this is the updraft directory
+0019.731 (0) finding files: mu-plugins-old: adding to list (3)
+0019.732 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0019.737 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+0019.750 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip.tmp: size is now: 0.00 MB
+0019.755 (0) Creating zip file manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip.list-temp.tmp)
+0019.757 (0) Successfully created zip file manifest (size: 43)
+0019.775 (0) Created others zip (0) - 0.5 KB in 0 s (12.9 KB/s) (sha1: 8f3635adc903f2a12bbd8c953a4fd920da3cc7ca, sha256: 713c4d5861bbf40d41995ec860d6a79d1931102ff05fa16c678e1475d226ba50)
+0019.780 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.781 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0020.037 (0) Google Drive: quota usage: used=13253.1 MB, total=15360 MB, available=2106.9 MB
+0020.039 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0021.697 (0) Googledrive chunked upload: 100 % uploaded
+0021.706 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip uploaded in 1.67 seconds
+0021.707 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip
+0021.712 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip: skipped: user has unchecked updraft_delete_local option
+0021.729 (0) Saving backup status to database (elements: 11)
+0021.735 (0) Beginning creation of database dump (WordPress DB)
+0021.736 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0021.742 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0021.793 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_br3iki_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8m (truncated - 1579 bytes total)
+0021.795 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0021.822 (0) Table wp_br3iki_options: Total expected rows (via COUNT): 943
+0021.918 (0) Table wp_br3iki_options: Rows added in this batch (next record: 5149): 937 (uncompressed bytes in this segment=2413339) in 0.11 seconds
+0021.929 (0) Table wp_br3iki_options: finishing file(s) (2, 496.4 KB)
+0021.949 (0) Table wp_br3iki_users: Total expected rows (via COUNT): 1
+0021.951 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.955 (0) Table wp_br3iki_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1442) in 0.02 seconds
+0021.961 (0) Table wp_br3iki_users: finishing file(s) (2, 0.6 KB)
+0021.977 (0) Table wp_br3iki_usermeta: Total expected rows (via COUNT): 36
+0021.979 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.982 (0) Table wp_br3iki_usermeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=4116) in 0.01 seconds
+0021.992 (0) Table wp_br3iki_usermeta: finishing file(s) (2, 1.9 KB)
+0022.012 (0) Table wp_br3iki_commentmeta: Total expected rows (via COUNT): 0
+0022.017 (0) Table wp_br3iki_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.01 seconds
+0022.024 (0) Table wp_br3iki_commentmeta: finishing file(s) (2, 0.4 KB)
+0022.035 (0) Table wp_br3iki_comments: Total expected rows (via COUNT): 0
+0022.040 (0) Table wp_br3iki_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1792) in 0.01 seconds
+0022.046 (0) Table wp_br3iki_comments: finishing file(s) (2, 0.5 KB)
+0022.059 (0) Table wp_br3iki_links: Total expected rows (via COUNT): 0
+0022.061 (0) Table wp_br3iki_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1340) in 0.01 seconds
+0022.102 (0) Table wp_br3iki_links: finishing file(s) (2, 0.5 KB)
+0022.121 (0) Table wp_br3iki_postmeta: Total expected rows (approximate): 1168
+0022.158 (0) Table wp_br3iki_postmeta: Rows added in this batch (next record: 7807): 1115 (uncompressed bytes in this segment=1831785) in 0.05 seconds
+0022.168 (0) Table wp_br3iki_postmeta: finishing file(s) (2, 161.3 KB)
+0022.181 (0) Table wp_br3iki_posts: Total expected rows (via COUNT): 222
+0022.182 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.198 (0) Table wp_br3iki_posts: Rows added in this batch (next record: 21372): 222 (uncompressed bytes in this segment=655208) in 0.02 seconds
+0022.209 (0) Table wp_br3iki_posts: finishing file(s) (2, 53.5 KB)
+0022.220 (0) Table wp_br3iki_term_relationships: Total expected rows (approximate): 26
+0022.223 (0) Table wp_br3iki_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1153) in 0.01 seconds
+0022.228 (0) Table wp_br3iki_term_relationships: finishing file(s) (2, 0.5 KB)
+0022.247 (0) Table wp_br3iki_term_taxonomy: Total expected rows (via COUNT): 56
+0022.248 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.253 (0) Table wp_br3iki_term_taxonomy: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=2993) in 0.02 seconds
+0022.259 (0) Table wp_br3iki_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0022.274 (0) Table wp_br3iki_termmeta: Total expected rows (via COUNT): 0
+0022.279 (0) Table wp_br3iki_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=692) in 0.01 seconds
+0022.286 (0) Table wp_br3iki_termmeta: finishing file(s) (2, 0.4 KB)
+0022.305 (0) Table wp_br3iki_terms: Total expected rows (via COUNT): 56
+0022.306 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.310 (0) Table wp_br3iki_terms: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=2667) in 0.01 seconds
+0022.315 (0) Table wp_br3iki_terms: finishing file(s) (2, 1.1 KB)
+0022.332 (0) Table wp_br3iki_actionscheduler_actions: Total expected rows (via COUNT): 64
+0022.337 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.340 (0) Table wp_br3iki_actionscheduler_actions: Rows added in this batch (next record: 114): 64 (uncompressed bytes in this segment=28756) in 0.02 seconds
+0022.346 (0) Table wp_br3iki_actionscheduler_actions: finishing file(s) (2, 3 KB)
+0022.357 (0) Table wp_br3iki_actionscheduler_claims: Total expected rows (via COUNT): 0
+0022.362 (0) Table wp_br3iki_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.01 seconds
+0022.367 (0) Table wp_br3iki_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0022.380 (0) Table wp_br3iki_actionscheduler_groups: Total expected rows (via COUNT): 4
+0022.382 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.385 (0) Table wp_br3iki_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=777) in 0.01 seconds
+0022.390 (0) Table wp_br3iki_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0022.403 (0) Table wp_br3iki_actionscheduler_logs: Total expected rows (via COUNT): 183
+0022.405 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.410 (0) Table wp_br3iki_actionscheduler_logs: Rows added in this batch (next record: 292): 183 (uncompressed bytes in this segment=18364) in 0.01 seconds
+0022.415 (0) Table wp_br3iki_actionscheduler_logs: finishing file(s) (2, 2.5 KB)
+0022.433 (0) Table wp_br3iki_aioseo_cache: Total expected rows (via COUNT): 21
+0022.434 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.443 (0) Table wp_br3iki_aioseo_cache: Rows added in this batch (next record: 102): 21 (uncompressed bytes in this segment=96845) in 0.02 seconds
+0022.453 (0) Table wp_br3iki_aioseo_cache: finishing file(s) (2, 18.7 KB)
+0022.466 (0) Table wp_br3iki_aioseo_crawl_cleanup_blocked_args: Total expected rows (via COUNT): 0
+0022.471 (0) Table wp_br3iki_aioseo_crawl_cleanup_blocked_args: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1081) in 0.01 seconds
+0022.476 (0) Table wp_br3iki_aioseo_crawl_cleanup_blocked_args: finishing file(s) (2, 0.5 KB)
+0022.490 (0) Table wp_br3iki_aioseo_crawl_cleanup_logs: Total expected rows (via COUNT): 0
+0022.492 (0) Table wp_br3iki_aioseo_crawl_cleanup_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=917) in 0.01 seconds
+0022.505 (0) Table wp_br3iki_aioseo_crawl_cleanup_logs: finishing file(s) (2, 0.4 KB)
+0022.527 (0) Table wp_br3iki_aioseo_notifications: Total expected rows (via COUNT): 1
+0022.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.531 (0) Table wp_br3iki_aioseo_notifications: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2552) in 0.01 seconds
+0022.543 (0) Table wp_br3iki_aioseo_notifications: finishing file(s) (2, 0.9 KB)
+0022.569 (0) Table wp_br3iki_aioseo_posts: Total expected rows (via COUNT): 155
+0022.571 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.587 (0) Table wp_br3iki_aioseo_posts: Rows added in this batch (next record: 155): 155 (uncompressed bytes in this segment=136475) in 0.03 seconds
+0022.603 (0) Table wp_br3iki_aioseo_posts: finishing file(s) (2, 4.6 KB)
+0022.617 (0) Table wp_br3iki_e_events: Total expected rows (via COUNT): 0
+0022.622 (0) Table wp_br3iki_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=567) in 0.01 seconds
+0022.628 (0) Table wp_br3iki_e_events: finishing file(s) (2, 0.4 KB)
+0022.651 (0) Table wp_br3iki_e_submissions: Total expected rows (via COUNT): 2
+0022.653 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.657 (0) Table wp_br3iki_e_submissions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3154) in 0.01 seconds
+0022.663 (0) Table wp_br3iki_e_submissions: finishing file(s) (2, 1 KB)
+0022.680 (0) Table wp_br3iki_e_submissions_actions_log: Total expected rows (via COUNT): 2
+0022.681 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.683 (0) Table wp_br3iki_e_submissions_actions_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1631) in 0.01 seconds
+0022.691 (0) Table wp_br3iki_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0022.715 (0) Table wp_br3iki_e_submissions_values: Total expected rows (via COUNT): 10
+0022.717 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.722 (0) Table wp_br3iki_e_submissions_values: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1178) in 0.02 seconds
+0022.732 (0) Table wp_br3iki_e_submissions_values: finishing file(s) (2, 0.6 KB)
+0022.748 (0) Table wp_br3iki_litespeed_url: Total expected rows (via COUNT): 0
+0022.755 (0) Table wp_br3iki_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0022.761 (0) Table wp_br3iki_litespeed_url: finishing file(s) (2, 0.4 KB)
+0022.777 (0) Table wp_br3iki_litespeed_url_file: Total expected rows (via COUNT): 0
+0022.779 (0) Table wp_br3iki_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1132) in 0.01 seconds
+0022.787 (0) Table wp_br3iki_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0022.809 (0) Table wp_br3iki_revslider_css: Total expected rows (via COUNT): 109
+0022.810 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.818 (0) Table wp_br3iki_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91273) in 0.02 seconds
+0022.830 (0) Table wp_br3iki_revslider_css: finishing file(s) (2, 4.9 KB)
+0022.844 (0) Table wp_br3iki_revslider_layer_animations: Total expected rows (via COUNT): 0
+0022.849 (0) Table wp_br3iki_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0022.856 (0) Table wp_br3iki_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0022.875 (0) Table wp_br3iki_revslider_navigations: Total expected rows (via COUNT): 0
+0022.878 (0) Table wp_br3iki_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=842) in 0.01 seconds
+0022.887 (0) Table wp_br3iki_revslider_navigations: finishing file(s) (2, 0.4 KB)
+0022.905 (0) Table wp_br3iki_revslider_sliders: Total expected rows (via COUNT): 0
+0022.906 (0) Table wp_br3iki_revslider_sliders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0022.916 (0) Table wp_br3iki_revslider_sliders: finishing file(s) (2, 0.4 KB)
+0022.932 (0) Table wp_br3iki_revslider_sliders7: Total expected rows (via COUNT): 0
+0022.934 (0) Table wp_br3iki_revslider_sliders7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.01 seconds
+0022.943 (0) Table wp_br3iki_revslider_sliders7: finishing file(s) (2, 0.4 KB)
+0022.965 (0) Table wp_br3iki_revslider_slides: Total expected rows (via COUNT): 0
+0022.969 (0) Table wp_br3iki_revslider_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=738) in 0.01 seconds
+0022.982 (0) Table wp_br3iki_revslider_slides: finishing file(s) (2, 0.4 KB)
+0023.002 (0) Table wp_br3iki_revslider_slides7: Total expected rows (via COUNT): 0
+0023.004 (0) Table wp_br3iki_revslider_slides7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.01 seconds
+0023.017 (0) Table wp_br3iki_revslider_slides7: finishing file(s) (2, 0.4 KB)
+0023.035 (0) Table wp_br3iki_revslider_static_slides: Total expected rows (via COUNT): 0
+0023.037 (0) Table wp_br3iki_revslider_static_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.01 seconds
+0023.048 (0) Table wp_br3iki_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0023.068 (0) Table wp_br3iki_wc_admin_note_actions: Total expected rows (via COUNT): 86
+0023.070 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.076 (0) Table wp_br3iki_wc_admin_note_actions: Rows added in this batch (next record: 1106): 86 (uncompressed bytes in this segment=17002) in 0.02 seconds
+0023.085 (0) Table wp_br3iki_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0023.106 (0) Table wp_br3iki_wc_admin_notes: Total expected rows (via COUNT): 58
+0023.108 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.113 (0) Table wp_br3iki_wc_admin_notes: Rows added in this batch (next record: 58): 58 (uncompressed bytes in this segment=29242) in 0.02 seconds
+0023.126 (0) Table wp_br3iki_wc_admin_notes: finishing file(s) (2, 6 KB)
+0023.140 (0) Table wp_br3iki_wc_category_lookup: Total expected rows (approximate): 0
+0023.149 (0) Table wp_br3iki_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=630) in 0.01 seconds
+0023.156 (0) Table wp_br3iki_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0023.169 (0) Table wp_br3iki_wc_customer_lookup: Total expected rows (via COUNT): 0
+0023.171 (0) Table wp_br3iki_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1300) in 0.01 seconds
+0023.178 (0) Table wp_br3iki_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0023.192 (0) Table wp_br3iki_wc_download_log: Total expected rows (via COUNT): 0
+0023.194 (0) Table wp_br3iki_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=777) in 0.01 seconds
+0023.202 (0) Table wp_br3iki_wc_download_log: finishing file(s) (2, 0.4 KB)
+0023.218 (0) Table wp_br3iki_wc_order_addresses: Total expected rows (via COUNT): 0
+0023.221 (0) Table wp_br3iki_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1347) in 0.01 seconds
+0023.227 (0) Table wp_br3iki_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0023.242 (0) Table wp_br3iki_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0023.245 (0) Table wp_br3iki_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0023.255 (0) Table wp_br3iki_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0023.270 (0) Table wp_br3iki_wc_order_operational_data: Total expected rows (via COUNT): 0
+0023.274 (0) Table wp_br3iki_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1557) in 0.01 seconds
+0023.285 (0) Table wp_br3iki_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0023.299 (0) Table wp_br3iki_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0023.302 (0) Table wp_br3iki_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1245) in 0.01 seconds
+0023.314 (0) Table wp_br3iki_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0023.328 (0) Table wp_br3iki_wc_order_stats: Total expected rows (via COUNT): 0
+0023.330 (0) Table wp_br3iki_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1261) in 0.01 seconds
+0023.335 (0) Table wp_br3iki_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0023.348 (0) Table wp_br3iki_wc_order_tax_lookup: Total expected rows (approximate): 0
+0023.350 (0) Table wp_br3iki_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=833) in 0.01 seconds
+0023.356 (0) Table wp_br3iki_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0023.375 (0) Table wp_br3iki_wc_orders: Total expected rows (via COUNT): 0
+0023.377 (0) Table wp_br3iki_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1718) in 0.01 seconds
+0023.382 (0) Table wp_br3iki_wc_orders: finishing file(s) (2, 0.6 KB)
+0023.394 (0) Table wp_br3iki_wc_orders_meta: Total expected rows (via COUNT): 0
+0023.398 (0) Table wp_br3iki_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=785) in 0.01 seconds
+0023.403 (0) Table wp_br3iki_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0023.420 (0) Table wp_br3iki_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0023.441 (0) Table wp_br3iki_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=892) in 0.03 seconds
+0023.448 (0) Table wp_br3iki_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0023.461 (0) Table wp_br3iki_wc_product_download_directories: Total expected rows (via COUNT): 2
+0023.463 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.466 (0) Table wp_br3iki_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=958) in 0.01 seconds
+0023.472 (0) Table wp_br3iki_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0023.487 (0) Table wp_br3iki_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0023.490 (0) Table wp_br3iki_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1391) in 0.01 seconds
+0023.498 (0) Table wp_br3iki_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0023.515 (0) Table wp_br3iki_wc_rate_limits: Total expected rows (via COUNT): 0
+0023.517 (0) Table wp_br3iki_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.01 seconds
+0023.529 (0) Table wp_br3iki_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0023.543 (0) Table wp_br3iki_wc_reserved_stock: Total expected rows (approximate): 0
+0023.544 (0) Table wp_br3iki_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=699) in 0.01 seconds
+0023.550 (0) Table wp_br3iki_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0023.564 (0) Table wp_br3iki_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0023.566 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.569 (0) Table wp_br3iki_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=857) in 0.01 seconds
+0023.575 (0) Table wp_br3iki_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0023.590 (0) Table wp_br3iki_wc_webhooks: Total expected rows (via COUNT): 0
+0023.595 (0) Table wp_br3iki_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1257) in 0.01 seconds
+0023.600 (0) Table wp_br3iki_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0023.647 (0) Table wp_br3iki_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0023.649 (0) Table wp_br3iki_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1080) in 0.04 seconds
+0023.660 (0) Table wp_br3iki_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0023.673 (0) Table wp_br3iki_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0023.674 (0) Table wp_br3iki_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=996) in 0.01 seconds
+0023.680 (0) Table wp_br3iki_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0023.691 (0) Table wp_br3iki_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0023.695 (0) Table wp_br3iki_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1560) in 0.01 seconds
+0023.700 (0) Table wp_br3iki_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0023.716 (0) Table wp_br3iki_woocommerce_log: Total expected rows (via COUNT): 0
+0023.718 (0) Table wp_br3iki_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.01 seconds
+0023.726 (0) Table wp_br3iki_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0023.743 (0) Table wp_br3iki_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0023.746 (0) Table wp_br3iki_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.01 seconds
+0023.753 (0) Table wp_br3iki_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0023.768 (0) Table wp_br3iki_woocommerce_order_items: Total expected rows (via COUNT): 0
+0023.771 (0) Table wp_br3iki_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0023.777 (0) Table wp_br3iki_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0023.794 (0) Table wp_br3iki_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0023.797 (0) Table wp_br3iki_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.01 seconds
+0023.805 (0) Table wp_br3iki_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0023.818 (0) Table wp_br3iki_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0023.822 (0) Table wp_br3iki_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=875) in 0.01 seconds
+0023.828 (0) Table wp_br3iki_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0023.848 (0) Table wp_br3iki_woocommerce_sessions: Total expected rows (via COUNT): 1
+0023.849 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.852 (0) Table wp_br3iki_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2230) in 0.01 seconds
+0023.862 (0) Table wp_br3iki_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0023.876 (0) Table wp_br3iki_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0023.879 (0) Table wp_br3iki_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=900) in 0.01 seconds
+0023.886 (0) Table wp_br3iki_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0023.901 (0) Table wp_br3iki_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0023.903 (0) Table wp_br3iki_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=805) in 0.01 seconds
+0023.909 (0) Table wp_br3iki_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0023.924 (0) Table wp_br3iki_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0023.928 (0) Table wp_br3iki_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0023.935 (0) Table wp_br3iki_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0023.951 (0) Table wp_br3iki_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0023.953 (0) Table wp_br3iki_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0.01 seconds
+0023.960 (0) Table wp_br3iki_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0023.972 (0) Table wp_br3iki_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0023.975 (0) Table wp_br3iki_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1325) in 0.01 seconds
+0023.982 (0) Table wp_br3iki_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0024.001 (0) Table wp_br3iki_wpforms_logs: Total expected rows (via COUNT): 0
+0024.003 (0) Table wp_br3iki_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.01 seconds
+0024.013 (0) Table wp_br3iki_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0024.031 (0) Table wp_br3iki_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0024.035 (0) Table wp_br3iki_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0024.045 (0) Table wp_br3iki_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0024.063 (0) Table wp_br3iki_wpforms_payments: Total expected rows (via COUNT): 0
+0024.068 (0) Table wp_br3iki_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2000) in 0.01 seconds
+0024.075 (0) Table wp_br3iki_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0024.093 (0) Table wp_br3iki_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0024.094 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.103 (0) Table wp_br3iki_wpforms_tasks_meta: Rows added in this batch (next record: 12): 5 (uncompressed bytes in this segment=1097) in 0.02 seconds
+0024.112 (0) Table wp_br3iki_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0024.114 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/dh_x77t9e/xaphu.com/wp-content/updraft/backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0024.116 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_options.table.tmpr5150.gz (1/73/fopen): adding to final database dump
+0024.126 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_options.table.gz (2/73/fopen): adding to final database dump
+0024.127 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_users.table.tmpr2.gz (3/73/fopen): adding to final database dump
+0024.129 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_users.table.gz (4/73/fopen): adding to final database dump
+0024.131 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_usermeta.table.tmpr37.gz (5/73/fopen): adding to final database dump
+0024.132 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_usermeta.table.gz (6/73/fopen): adding to final database dump
+0024.134 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_commentmeta.table.tmpr0.gz (7/73/fopen): adding to final database dump
+0024.135 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_commentmeta.table.gz (8/73/fopen): adding to final database dump
+0024.136 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_comments.table.tmpr0.gz (9/73/fopen): adding to final database dump
+0024.137 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_comments.table.gz (10/73/fopen): adding to final database dump
+0024.139 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_links.table.tmpr0.gz (11/73/fopen): adding to final database dump
+0024.139 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_links.table.gz (12/73/fopen): adding to final database dump
+0024.141 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_postmeta.table.tmpr7808.gz (13/73/fopen): adding to final database dump
+0024.144 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_postmeta.table.gz (14/73/fopen): adding to final database dump
+0024.147 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_posts.table.tmpr21373.gz (15/73/fopen): adding to final database dump
+0024.149 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_posts.table.gz (16/73/fopen): adding to final database dump
+0024.150 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_term_relationships.table.tmpr100001.gz (17/73/fopen): adding to final database dump
+0024.152 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_term_relationships.table.gz (18/73/fopen): adding to final database dump
+0024.153 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_term_taxonomy.table.tmpr57.gz (19/73/fopen): adding to final database dump
+0024.154 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_term_taxonomy.table.gz (20/73/fopen): adding to final database dump
+0024.155 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_termmeta.table.tmpr0.gz (21/73/fopen): adding to final database dump
+0024.157 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_termmeta.table.gz (22/73/fopen): adding to final database dump
+0024.159 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_terms.table.tmpr57.gz (23/73/fopen): adding to final database dump
+0024.161 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_terms.table.gz (24/73/fopen): adding to final database dump
+0024.164 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_actions.table.tmpr115.gz (25/73/fopen): adding to final database dump
+0024.166 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_actions.table.gz (26/73/fopen): adding to final database dump
+0024.167 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_claims.table.tmpr0.gz (27/73/fopen): adding to final database dump
+0024.169 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_claims.table.gz (28/73/fopen): adding to final database dump
+0024.171 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_groups.table.tmpr5.gz (29/73/fopen): adding to final database dump
+0024.172 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_groups.table.gz (30/73/fopen): adding to final database dump
+0024.173 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_logs.table.tmpr293.gz (31/73/fopen): adding to final database dump
+0024.177 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_actionscheduler_logs.table.gz (32/73/fopen): adding to final database dump
+0024.180 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_cache.table.tmpr103.gz (33/73/fopen): adding to final database dump
+0024.182 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_cache.table.gz (34/73/fopen): adding to final database dump
+0024.183 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_crawl_cleanup_blocked_args.table.tmpr0.gz (35/73/fopen): adding to final database dump
+0024.185 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_crawl_cleanup_blocked_args.table.gz (36/73/fopen): adding to final database dump
+0024.186 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_crawl_cleanup_logs.table.tmpr0.gz (37/73/fopen): adding to final database dump
+0024.187 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_crawl_cleanup_logs.table.gz (38/73/fopen): adding to final database dump
+0024.189 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_notifications.table.tmpr2.gz (39/73/fopen): adding to final database dump
+0024.191 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_notifications.table.gz (40/73/fopen): adding to final database dump
+0024.192 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_posts.table.tmpr156.gz (41/73/fopen): adding to final database dump
+0024.194 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_aioseo_posts.table.gz (42/73/fopen): adding to final database dump
+0024.195 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_events.table.tmpr0.gz (43/73/fopen): adding to final database dump
+0024.196 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_events.table.gz (44/73/fopen): adding to final database dump
+0024.198 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions.table.tmpr3.gz (45/73/fopen): adding to final database dump
+0024.199 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions.table.gz (46/73/fopen): adding to final database dump
+0024.200 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions_actions_log.table.tmpr3.gz (47/73/fopen): adding to final database dump
+0024.202 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions_actions_log.table.gz (48/73/fopen): adding to final database dump
+0024.203 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions_values.table.tmpr11.gz (49/73/fopen): adding to final database dump
+0024.204 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_e_submissions_values.table.gz (50/73/fopen): adding to final database dump
+0024.206 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_litespeed_url.table.tmpr0.gz (51/73/fopen): adding to final database dump
+0024.206 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_litespeed_url.table.gz (52/73/fopen): adding to final database dump
+0024.207 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_litespeed_url_file.table.tmpr0.gz (53/73/fopen): adding to final database dump
+0024.208 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_litespeed_url_file.table.gz (54/73/fopen): adding to final database dump
+0024.210 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_css.table.tmpr110.gz (55/73/fopen): adding to final database dump
+0024.213 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_css.table.gz (56/73/fopen): adding to final database dump
+0024.214 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_layer_animations.table.tmpr0.gz (57/73/fopen): adding to final database dump
+0024.216 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_layer_animations.table.gz (58/73/fopen): adding to final database dump
+0024.218 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_navigations.table.tmpr0.gz (59/73/fopen): adding to final database dump
+0024.220 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_navigations.table.gz (60/73/fopen): adding to final database dump
+0024.221 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_sliders.table.tmpr0.gz (61/73/fopen): adding to final database dump
+0024.223 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_sliders.table.gz (62/73/fopen): adding to final database dump
+0024.225 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_sliders7.table.tmpr0.gz (63/73/fopen): adding to final database dump
+0024.227 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_sliders7.table.gz (64/73/fopen): adding to final database dump
+0024.229 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_slides.table.tmpr0.gz (65/73/fopen): adding to final database dump
+0024.231 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_slides.table.gz (66/73/fopen): adding to final database dump
+0024.232 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_slides7.table.tmpr0.gz (67/73/fopen): adding to final database dump
+0024.233 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_slides7.table.gz (68/73/fopen): adding to final database dump
+0024.234 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_static_slides.table.tmpr0.gz (69/73/fopen): adding to final database dump
+0024.235 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_revslider_static_slides.table.gz (70/73/fopen): adding to final database dump
+0024.236 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_admin_note_actions.table.tmpr1107.gz (71/73/fopen): adding to final database dump
+0024.238 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_admin_note_actions.table.gz (72/73/fopen): adding to final database dump
+0024.239 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_admin_notes.table.tmpr59.gz (73/73/fopen): adding to final database dump
+0024.241 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_admin_notes.table.gz (74/73/fopen): adding to final database dump
+0024.242 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_category_lookup.table.tmpr1001.gz (75/73/fopen): adding to final database dump
+0024.245 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_category_lookup.table.gz (76/73/fopen): adding to final database dump
+0024.249 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_customer_lookup.table.tmpr0.gz (77/73/fopen): adding to final database dump
+0024.253 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_customer_lookup.table.gz (78/73/fopen): adding to final database dump
+0024.255 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_download_log.table.tmpr0.gz (79/73/fopen): adding to final database dump
+0024.261 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_download_log.table.gz (80/73/fopen): adding to final database dump
+0024.262 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_addresses.table.tmpr0.gz (81/73/fopen): adding to final database dump
+0024.264 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_addresses.table.gz (82/73/fopen): adding to final database dump
+0024.265 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_coupon_lookup.table.tmpr1.gz (83/73/fopen): adding to final database dump
+0024.267 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_coupon_lookup.table.gz (84/73/fopen): adding to final database dump
+0024.268 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_operational_data.table.tmpr0.gz (85/73/fopen): adding to final database dump
+0024.270 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_operational_data.table.gz (86/73/fopen): adding to final database dump
+0024.273 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_product_lookup.table.tmpr0.gz (87/73/fopen): adding to final database dump
+0024.276 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_product_lookup.table.gz (88/73/fopen): adding to final database dump
+0024.277 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_stats.table.tmpr0.gz (89/73/fopen): adding to final database dump
+0024.278 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_stats.table.gz (90/73/fopen): adding to final database dump
+0024.280 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_tax_lookup.table.tmpr1.gz (91/73/fopen): adding to final database dump
+0024.281 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_order_tax_lookup.table.gz (92/73/fopen): adding to final database dump
+0024.282 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_orders.table.tmpr0.gz (93/73/fopen): adding to final database dump
+0024.283 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_orders.table.gz (94/73/fopen): adding to final database dump
+0024.285 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_orders_meta.table.tmpr0.gz (95/73/fopen): adding to final database dump
+0024.286 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_orders_meta.table.gz (96/73/fopen): adding to final database dump
+0024.287 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_attributes_lookup.table.tmpr1.gz (97/73/fopen): adding to final database dump
+0024.288 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_attributes_lookup.table.gz (98/73/fopen): adding to final database dump
+0024.290 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_download_directories.table.tmpr3.gz (99/73/fopen): adding to final database dump
+0024.295 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_download_directories.table.gz (100/73/fopen): adding to final database dump
+0024.297 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_meta_lookup.table.tmpr0.gz (101/73/fopen): adding to final database dump
+0024.299 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_product_meta_lookup.table.gz (102/73/fopen): adding to final database dump
+0024.300 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_rate_limits.table.tmpr0.gz (103/73/fopen): adding to final database dump
+0024.304 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_rate_limits.table.gz (104/73/fopen): adding to final database dump
+0024.305 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_reserved_stock.table.tmpr1.gz (105/73/fopen): adding to final database dump
+0024.306 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_reserved_stock.table.gz (106/73/fopen): adding to final database dump
+0024.310 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_tax_rate_classes.table.tmpr3.gz (107/73/fopen): adding to final database dump
+0024.311 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_tax_rate_classes.table.gz (108/73/fopen): adding to final database dump
+0024.312 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_webhooks.table.tmpr0.gz (109/73/fopen): adding to final database dump
+0024.314 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wc_webhooks.table.gz (110/73/fopen): adding to final database dump
+0024.315 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_api_keys.table.tmpr0.gz (111/73/fopen): adding to final database dump
+0024.317 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_api_keys.table.gz (112/73/fopen): adding to final database dump
+0024.318 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_attribute_taxonomies.table.tmpr0.gz (113/73/fopen): adding to final database dump
+0024.319 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_attribute_taxonomies.table.gz (114/73/fopen): adding to final database dump
+0024.320 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_downloadable_product_permissions.table.tmpr0.gz (115/73/fopen): adding to final database dump
+0024.321 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_downloadable_product_permissions.table.gz (116/73/fopen): adding to final database dump
+0024.323 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_log.table.tmpr0.gz (117/73/fopen): adding to final database dump
+0024.324 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_log.table.gz (118/73/fopen): adding to final database dump
+0024.326 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_order_itemmeta.table.tmpr0.gz (119/73/fopen): adding to final database dump
+0024.327 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_order_itemmeta.table.gz (120/73/fopen): adding to final database dump
+0024.328 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_order_items.table.tmpr0.gz (121/73/fopen): adding to final database dump
+0024.329 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_order_items.table.gz (122/73/fopen): adding to final database dump
+0024.330 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_payment_tokenmeta.table.tmpr0.gz (123/73/fopen): adding to final database dump
+0024.331 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_payment_tokenmeta.table.gz (124/73/fopen): adding to final database dump
+0024.332 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_payment_tokens.table.tmpr0.gz (125/73/fopen): adding to final database dump
+0024.334 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_payment_tokens.table.gz (126/73/fopen): adding to final database dump
+0024.335 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_sessions.table.tmpr2.gz (127/73/fopen): adding to final database dump
+0024.337 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_sessions.table.gz (128/73/fopen): adding to final database dump
+0024.339 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zone_locations.table.tmpr0.gz (129/73/fopen): adding to final database dump
+0024.340 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zone_locations.table.gz (130/73/fopen): adding to final database dump
+0024.341 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zone_methods.table.tmpr0.gz (131/73/fopen): adding to final database dump
+0024.342 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zone_methods.table.gz (132/73/fopen): adding to final database dump
+0024.343 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zones.table.tmpr0.gz (133/73/fopen): adding to final database dump
+0024.344 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_shipping_zones.table.gz (134/73/fopen): adding to final database dump
+0024.346 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_tax_rate_locations.table.tmpr0.gz (135/73/fopen): adding to final database dump
+0024.347 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_tax_rate_locations.table.gz (136/73/fopen): adding to final database dump
+0024.348 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_tax_rates.table.tmpr0.gz (137/73/fopen): adding to final database dump
+0024.350 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_woocommerce_tax_rates.table.gz (138/73/fopen): adding to final database dump
+0024.351 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_logs.table.tmpr0.gz (139/73/fopen): adding to final database dump
+0024.353 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_logs.table.gz (140/73/fopen): adding to final database dump
+0024.354 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_payment_meta.table.tmpr0.gz (141/73/fopen): adding to final database dump
+0024.355 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_payment_meta.table.gz (142/73/fopen): adding to final database dump
+0024.356 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_payments.table.tmpr0.gz (143/73/fopen): adding to final database dump
+0024.357 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_payments.table.gz (144/73/fopen): adding to final database dump
+0024.358 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_tasks_meta.table.tmpr13.gz (145/73/fopen): adding to final database dump
+0024.359 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db-table-wp_br3iki_wpforms_tasks_meta.table.gz (146/73/fopen): adding to final database dump
+0024.376 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz: finished writing out complete database file (784.1 KB)
+0024.402 (0) Total database tables backed up: 73 (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz, size: 803074, sha1: acbdf49e448e9577f7765ae17852b3ca0541d6d1, sha256: 910b773964e5f1f64098bc697dc45cf187da6ae7112d395ded9ca14fbcd46134)
+0024.410 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip: plugins: This file has already been successfully uploaded
+0024.411 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip: themes: This file has already been successfully uploaded
+0024.412 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip: uploads: This file has already been successfully uploaded
+0024.414 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip: uploads: This file has already been successfully uploaded
+0024.415 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0024.416 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip: others: This file has already been successfully uploaded
+0024.419 (0) backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz: db: This file has not yet been successfully uploaded: will queue
+0024.420 (0) Saving backup history. Total backup size: 51.9 MB
+0024.430 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0024.438 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.441 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e7bb189bdfeafaeff3ced328f14fa548)
+0024.708 (0) Google Drive: quota usage: used=13253.1 MB, total=15360 MB, available=2106.9 MB
+0024.717 (0) Google Drive: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz: Attempting to upload to Google Drive (into folder id: 1iZezWl_cRc3JPznXPjsyiJeIBDce_vkc)
+0026.436 (0) Googledrive chunked upload: 100 % uploaded
+0026.442 (0) Google Drive: OK: Archive backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz uploaded in 1.72 seconds
+0026.444 (0) Recording as successfully uploaded: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz
+0026.450 (0) Deleting local file: backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-db.gz: skipped: user has unchecked updraft_delete_local option
+0026.455 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0026.457 (0) Number of backup sets in history: 1; groups (db): 1
+0026.459 (0) Examining (for databases) backup set with group_id=0, nonce=1908acb57f47, datestamp=1718595960 (Jun 17 2024 03:46:00)
+0026.460 (0) This backup set is the backup set just made, so will not be deleted.
+0026.460 (0) Number of backup sets in history: 1; groups (files): 1
+0026.461 (0) Examining (for files) backup set with nonce=1908acb57f47, datestamp=1718595960 (Jun 17 2024 03:46:00)
+0026.461 (0) This backup set is the backup set just made, so will not be deleted.
+0026.463 (0) This backup set is the backup set just made, so will not be deleted.
+0026.463 (0) This backup set is the backup set just made, so will not be deleted.
+0026.463 (0) This backup set is the backup set just made, so will not be deleted.
+0026.463 (0) This backup set is the backup set just made, so will not be deleted.
+0026.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.464 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0026.468 (0) Resume backup (1908acb57f47, 0): finish run
+0026.472 (0) Decremented the semaphore (fd) by 1
+0026.474 (0) Semaphore (fd) unlocked
+0026.475 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0026.483 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-plugins.zip.list.tmp)
+0026.484 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-themes.zip.list.tmp)
+0026.486 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads.zip.list.tmp)
+0026.487 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-uploads2.zip.list.tmp)
+0026.488 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-mu-plugins.zip.list.tmp)
+0026.490 (0) Deleting zip manifest (backup_2024-06-17-0346_Pro_Selecto_1908acb57f47-others.zip.list.tmp)
+0026.492 (0) Fetching RSS news feed
+0026.756 (0) Fetched RSS news feed; result is a: SimplePie
+0026.767 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: desig...
+0026.785 (0) The backup succeeded and is now complete
